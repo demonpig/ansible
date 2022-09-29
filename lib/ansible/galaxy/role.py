@@ -235,6 +235,13 @@ class GalaxyRole(object):
 
         return False
 
+    def download(self, roles, output_path):
+        """
+        :param roles
+        :param output_path
+        """
+        pass
+
     def install(self):
 
         if self.scm:
